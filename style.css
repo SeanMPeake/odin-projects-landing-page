@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+}
+
+
+/* hero section */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.nav-bar {
+    display: flex;  
+    flex: 1;
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0 48px;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 48px;
+    gap: 16px;
+}
+
+.nav-links a,
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero-main  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    padding: 0 200px;
+    gap: 50px;
+}
+
+.hero-main-left,
+.hero-main-right {
+    display: flex;
+    flex: 1 300px;
+    max-width: 500px;
+    flex-shrink: 0;
+}
+
+.hero-main-left {
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-main-right {
+    background-color: #828486;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.placeholder-image {
+    color: #F9FAF8;
+}
+
+.hero-main-button {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 8px 30px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+/* information section */
+
+.information {
+    margin-bottom: 100px;
+}
+
+.information-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    gap: 48px;
+}
+
+.information-item {
+    width: 150px;
+}
+
+.information-item-image {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+
+/* quote section */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 75px;
+}
+
+.quote-container {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    align-self: center;
+    margin: 0;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+
+/* call to action section */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 72px;
+    max-width: 800px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 96px 150px;
+    flex: 1;
+}
+
+.cta-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.cta-text {
+    font-size: 14px;
+    color: #F9FAF8;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 8px 30px;
+    flex-shrink: 0;
+}
+
