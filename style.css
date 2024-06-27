@@ -5,7 +5,6 @@ body {
     margin: 0;
 }
 
-
 /* hero section */
 
 .hero {
@@ -35,6 +34,14 @@ body {
     margin: 0;
     padding: 0 48px;
     gap: 16px;
+}
+
+.nav-links>li:hover {
+    transform: scale(1.03);
+}
+
+.nav-links>li:active {
+    transform: scale(.98);
 }
 
 .nav-links a,
@@ -104,15 +111,14 @@ body {
     transform: scale(.98);
 }
 
+/* information section */
+
 .information-title {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
     text-align: center;
 }
-
-
-/* information section */
 
 .information {
     margin-bottom: 100px;
@@ -138,6 +144,9 @@ body {
     border-radius: 8px;
 }
 
+.information-item-image:hover {
+    transform: scale(1.05);
+}
 
 /* quote section */
 
