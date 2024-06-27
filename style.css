@@ -49,7 +49,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 100px;
-    padding: 0 200px;
+    padding: 20px;
 }
 
 .hero-main-left,
@@ -173,9 +173,10 @@ body {
     align-items: center;
     column-gap: 72px;
     max-width: 800px;
+    min-width: 360px;
     background-color: #3882F6;
     border-radius: 8px;
-    margin: 96px 150px;
+    margin: 96px 16px;
     flex: 1;
 }
 
