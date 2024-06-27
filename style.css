@@ -10,6 +10,7 @@ body {
 
 .hero {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: #1F2937;
 }
@@ -49,28 +50,23 @@ body {
     flex-wrap: wrap;
     margin-bottom: 100px;
     padding: 0 200px;
-    gap: 50px;
 }
 
 .hero-main-left,
-.hero-main-right {
+.hero-main-right{
     display: flex;
-    flex: 1 300px;
-    max-width: 500px;
-    flex-shrink: 0;
+    flex: 1;
+    padding: 20px;
+    max-width: 600px;
 }
 
 .hero-main-left {
     flex-wrap: wrap;
-    align-items: center;
-    padding: 20px;
+    align-content: center;
 }
 
 .hero-main-right {
-    background-color: #828486;
-    align-items: center;
     justify-content: center;
-
 }
 
 .hero-main-text {
@@ -80,8 +76,12 @@ body {
     margin: 0;
 }
 
+.hero-secondary-text {
+    margin: 10px 0px;
+}
+
 .placeholder-image {
-    color: #F9FAF8;
+    max-width: 400px; 
 }
 
 .hero-main-button {
