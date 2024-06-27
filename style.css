@@ -81,7 +81,9 @@ body {
 }
 
 .placeholder-image {
-    max-width: 400px; 
+    align-self: center;
+    max-width: 100%;
+    min-width: 400px; 
 }
 
 .hero-main-button {
@@ -114,6 +116,7 @@ body {
     list-style-type: none;
     justify-content: center;
     gap: 48px;
+    padding: 0;
 }
 
 .information-item {
