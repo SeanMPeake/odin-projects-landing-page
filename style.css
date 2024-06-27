@@ -203,3 +203,17 @@ body {
     flex-shrink: 0;
 }
 
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    padding: 36px;
+    margin: 0;
+}
